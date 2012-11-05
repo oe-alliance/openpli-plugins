@@ -39,6 +39,7 @@ Makefile
 PLi/Makefile
 PLi/SoftcamSetup/Makefile
 PLi/SoftcamSetup/src/Makefile
+PLi/SoftcamSetup/src/images/Makefile
 PLi/SoftcamSetup/po/Makefile
 Extensions/Makefile
 Extensions/UShare/Makefile
