@@ -1,4 +1,0 @@
-openpli-plugins
-===============
-
-openpli plugins
