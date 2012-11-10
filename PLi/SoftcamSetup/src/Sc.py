@@ -59,12 +59,12 @@ class ScNewSelection(Screen):
 			<screen name="ScNewSelection" position="center,center" size="670,520" title="Softcam Setup">
 				<widget name="cam" zPosition="2" position="5,5" size="310,21" font="Regular; 17" halign="left" foregroundColor="#00bab329" />
 				<widget name="server" zPosition="2" position="320,5" size="328,21" font="Regular; 17" halign="left" foregroundColor="#00bab329" />
-				<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/PLi/SoftcamSetup//images/div-h.png" position="0,30" zPosition="2" size="650,2" />
+				<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/PLi/SoftcamSetup/images/div-h.png" position="0,30" zPosition="2" size="650,2" />
 				<widget name="entries" position="5,35" size="630,200" />
-				<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/PLi/SoftcamSetup//images/div-h.png" position="0,235" zPosition="2" size="650,2" />
+				<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/PLi/SoftcamSetup/images/div-h.png" position="0,235" zPosition="2" size="650,2" />
 				<widget name="text" position="5,240" size="345,260" zPosition="2"  font="Regular;17" />
 				<widget name="text1" position="350,240" size="320,260" zPosition="2"  font="Regular;17" />
-				<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/PLi/SoftcamSetup//images/div-h.png" position="0,470" zPosition="2" size="650,2" />
+				<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/PLi/SoftcamSetup/images/div-h.png" position="0,470" zPosition="2" size="650,2" />
 				<ePixmap position="150,510" zPosition="1" size="170,2" pixmap="/usr/lib/enigma2/python/Plugins/PLi/SoftcamSetup/images/red.png" transparent="1" alphatest="on" />
 				<ePixmap position="400,510" zPosition="1" size="170,2" pixmap="/usr/lib/enigma2/python/Plugins/PLi/SoftcamSetup/images/green.png" transparent="1" alphatest="on" />
 				<widget name="key_red" position="150,480" zPosition="2" size="170,25" valign="center" halign="center" font="Regular;21" transparent="1" />
@@ -76,14 +76,14 @@ class ScNewSelection(Screen):
 			<screen name="ScNewSelection" position="center,center" size="650,270" title="Softcam Setup">
 				<widget name="cam" zPosition="2" position="5,5" size="310,21" font="Regular; 17" halign="left" foregroundColor="#00bab329" />
 				<widget name="server" zPosition="2" position="320,5" size="328,21" font="Regular; 17" halign="left" foregroundColor="#00bab329" />
-				<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/PLi/SoftcamSetup//images/div-h.png" position="0,30" zPosition="2" size="650,2" />
+				<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/PLi/SoftcamSetup/images/div-h.png" position="0,30" zPosition="2" size="650,2" />
 				<widget name="entries" position="5,35" size="630,180" />
 				<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/PLi/SoftcamSetup//images/div-h.png" position="0,215" zPosition="2" size="650,2" />
 				<ePixmap position="150,260" zPosition="1" size="170,2" pixmap="/usr/lib/enigma2/python/Plugins/PLi/SoftcamSetup/images/red.png" transparent="1" alphatest="on" />
 				<ePixmap position="400,260" zPosition="1" size="170,2" pixmap="/usr/lib/enigma2/python/Plugins/PLi/SoftcamSetup/images/green.png" transparent="1" alphatest="on" />
 				<widget name="key_red" position="150,230" zPosition="2" size="170,25" valign="center" halign="center" font="Regular;21" transparent="1" />
 				<widget name="key_green" position="400,230" zPosition="2" size="170,25" valign="center" halign="center" font="Regular;21" transparent="1" />
-				<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/PLi/SoftcamSetup//images/key_menu.png" position="20,230" zPosition="2" size="50,40" alphatest="on" />
+				<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/PLi/SoftcamSetup/images/key_menu.png" position="20,230" zPosition="2" size="50,40" alphatest="on" />
 			</screen>"""
 	def __init__(self, session):
 		Screen.__init__(self, session)
