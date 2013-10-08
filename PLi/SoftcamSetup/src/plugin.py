@@ -18,6 +18,7 @@ config.plugins.SoftcamSetup = ConfigSubsection()
 config.plugins.SoftcamSetup.autocam = ConfigSubsection()
 config.plugins.SoftcamSetup.autocam.enabled = ConfigYesNo(False)
 config.plugins.SoftcamSetup.autocam.checkrec = ConfigYesNo(False)
+config.plugins.SoftcamSetup.autocam.switchinfo = ConfigYesNo(False)
 config.plugins.SoftcamSetup.autocam.defcam = ConfigText('None')
 
 def sessionstart(reason, session, **kwargs):

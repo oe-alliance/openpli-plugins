@@ -165,6 +165,7 @@ class ScNewSelection(Screen):
 		self.softcams = ConfigSelection(choices = self.softcam.getList())
 		self.cfg_autocam = getConfigListEntry(_("Enable Auto-Camd"), config.plugins.SoftcamSetup.autocam.enabled)
 		self.cfg_checkrec = getConfigListEntry(_("Don't switch auto-camd while recording"), config.plugins.SoftcamSetup.autocam.checkrec)
+		self.cfg_switchinfo = getConfigListEntry(_("Show (switch info camname)"), config.plugins.SoftcamSetup.autocam.switchinfo)
 		self.cfg_aclsetup = getConfigListEntry(_("Setup Auto-Camd List"), ConfigAction(self.setupAutoCamList, None))
 
 	def createConfig(self):
@@ -195,6 +196,7 @@ class ScNewSelection(Screen):
 			self.softcams.value = config.plugins.SoftcamSetup.autocam.defcam.value
 			list.append(getConfigListEntry(_("Default Camd"), self.softcams))
 			list.append(self.cfg_checkrec)
+			list.append(self.cfg_switchinfo)
 			list.append(self.cfg_aclsetup)
 		if cardservers:
 			self.cardservers = ConfigSelection(choices = cardservers)

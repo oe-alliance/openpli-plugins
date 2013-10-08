@@ -320,8 +320,9 @@ def restartAutocam(self, cam, pip=False):
 		timer.stop()
 		self.camCtrl.select(cam)
 		self.camCtrl.command('start')
-		if msgbox:
-			msgbox.close()
+		if config.plugins.SoftcamSetup.autocam.switchinfo.value:
+                        if msgbox:
+			        msgbox.close()
 		if pip:
 			if not self.session.pip.playService(oldref):
 				self.session.pip.playService(None)
@@ -335,9 +336,10 @@ def restartAutocam(self, cam, pip=False):
 	self.session.nav.stopService()
 	
 	self.hide()
-	from Screens.MessageBox import MessageBox
-	msgbox = self.session.open(MessageBox, _("Switch camd:\n '%s' to '%s'")%(self.camCtrl.current(), cam), MessageBox.TYPE_INFO)
-	msgbox.setTitle(_("Auto-Camd"))
+	if config.plugins.SoftcamSetup.autocam.switchinfo.value:
+                from Screens.MessageBox import MessageBox
+	        msgbox = self.session.open(MessageBox, _("Switch camd:\n '%s' to '%s'")%(self.camCtrl.current(), cam), MessageBox.TYPE_INFO)
+	        msgbox.setTitle(_("Auto-Camd"))
 	
 	from enigma import eTimer
 	timer = eTimer()
