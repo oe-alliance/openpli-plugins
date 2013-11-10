@@ -1,1 +1,1 @@
-SUBDIRS = UShare OpenUitzendingGemist
+SUBDIRS = UShare
