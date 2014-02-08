@@ -348,12 +348,12 @@ def restartAutocam(self, cam, pip=False):
 
 # ChannelSelection setHistoryPath
 defHistoryPath = None
-def hew_setHistoryPath(self):
+def hew_setHistoryPath(self, doZap=True):
 	if not config.plugins.SoftcamSetup.autocam.enabled.value:
-		defHistoryPath(self)
+		defHistoryPath(self, doZap)
 	else:
 		ref = self.session.nav.getCurrentlyPlayingServiceReference()
-		defHistoryPath(self)
+		defHistoryPath(self, doZap)
 		nref = self.session.nav.getCurrentlyPlayingServiceReference()
 		if nref and self.session.pipshown == False:
 		#if nref:
