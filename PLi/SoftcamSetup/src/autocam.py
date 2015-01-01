@@ -383,9 +383,9 @@ def hew_setHistoryPath(self, doZap=True):
 
 # ChannelSelection zap
 defZap = None
-def newZap(self, enable_pipzap = False, preview_zap = False):
+def newZap(self, enable_pipzap = False, preview_zap = False, checkParentalControl=True, ref=None):
 	if not config.plugins.SoftcamSetup.autocam.enabled.value:
-		defZap(self, enable_pipzap, preview_zap)
+		defZap(self, enable_pipzap, preview_zap, checkParentalControl, ref)
 	else:
 		nref = self.getCurrentSelection()
 		isPip = enable_pipzap and self.dopipzap
@@ -393,7 +393,7 @@ def newZap(self, enable_pipzap = False, preview_zap = False):
 			ref = self.session.pip.getCurrentService()
 		else:
 			ref = self.session.nav.getCurrentlyPlayingServiceReference()
-		defZap(self, enable_pipzap, preview_zap)
+		defZap(self, enable_pipzap, preview_zap, checkParentalControl, ref)
 		if not preview_zap and self.session.pipshown == False: #not self.dopipzap:
 			if ref is None or ref != nref:
 				if not hasattr(self, 'camCtrl'):
