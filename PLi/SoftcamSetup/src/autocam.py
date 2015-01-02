@@ -390,12 +390,12 @@ def newZap(self, enable_pipzap = False, preview_zap = False, checkParentalContro
 		nref = self.getCurrentSelection()
 		isPip = enable_pipzap and self.dopipzap
 		if isPip:
-			ref = self.session.pip.getCurrentService()
+			r = self.session.pip.getCurrentService()
 		else:
-			ref = self.session.nav.getCurrentlyPlayingServiceReference()
+			r = self.session.nav.getCurrentlyPlayingServiceReference()
 		defZap(self, enable_pipzap, preview_zap, checkParentalControl, ref)
 		if not preview_zap and self.session.pipshown == False: #not self.dopipzap:
-			if ref is None or ref != nref:
+			if r is None or r != nref:
 				if not hasattr(self, 'camCtrl'):
 					from camcontrol import CamControl
 					self.camCtrl = CamControl('softcam')
