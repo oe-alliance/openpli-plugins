@@ -278,6 +278,7 @@ class AutoCamServiceSetup(ChannelSelectionBase):
 	def __init__(self, session, providers=False):
 		self.providers = providers
 		ChannelSelectionBase.__init__(self, session)
+		self.bouquet_mark_edit = OFF
 		from Components.ActionMap import ActionMap
 		self["actions"] = ActionMap(["OkCancelActions", "TvRadioActions"], {"cancel": self.close, "ok": self.channelSelected, "keyRadio": self.setModeRadio, "keyTV": self.setModeTv})
 		self.onLayoutFinish.append(self.setModeTv)
