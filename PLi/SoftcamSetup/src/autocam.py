@@ -13,6 +13,7 @@ from Components.config import config
 from Screens.Screen import Screen
 from Screens.ChannelSelection import service_types_radio, service_types_tv, ChannelSelection, ChannelSelectionBase
 from RecordTimer import RecordTimer
+from camcontrol import CamControl
 
 def getProviderName(ref):
 	typestr = ref.getData(0) in (2,10) and service_types_radio or service_types_tv
@@ -278,6 +279,9 @@ class AutoCamServiceSetup(ChannelSelectionBase):
 	def __init__(self, session, providers=False):
 		self.providers = providers
 		ChannelSelectionBase.__init__(self, session)
+		OFF = 0
+		EDIT_BOUQUET = 1
+		EDIT_ALTERNATIVES = 2
 		self.bouquet_mark_edit = OFF
 		from Components.ActionMap import ActionMap
 		self["actions"] = ActionMap(["OkCancelActions", "TvRadioActions"], {"cancel": self.close, "ok": self.channelSelected, "keyRadio": self.setModeRadio, "keyTV": self.setModeTv})
