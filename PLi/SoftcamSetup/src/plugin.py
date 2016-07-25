@@ -43,18 +43,30 @@ def menu(menuid, **kwargs):
 	if menuid == "cam":
 		return [(_("Softcam setup..."), main, "softcam_setup", 45)]
 	return []
-	
-	
+
+def softcam_installed():
+	found = False
+	for x in os.listdir('/etc/init.d'):
+		if x.find('softcam.') > -1 and x <> 'softcam.None':
+			found = True
+			break;
+	return found
+
 def Plugins(**kwargs):
 	from Plugins.Plugin import PluginDescriptor
-	if config.plugins.SoftcamMenu.MenuExt.value:
-		return [PluginDescriptor(name = _("Softcam setup"), description = _("Lets you configure your softcams"), where = PluginDescriptor.WHERE_MENU, fnc = menu),
-				PluginDescriptor(name = _("Softcam setup"), description= _("Lets you configure your softcams"), where = PluginDescriptor.WHERE_EXTENSIONSMENU, fnc= main),
-				PluginDescriptor(where = PluginDescriptor.WHERE_SESSIONSTART, fnc= sessionstart),
+	if softcam_installed():
+		if config.plugins.SoftcamMenu.MenuExt.value:
+			return [PluginDescriptor(name = _("Softcam setup"), description = _("Lets you configure your softcams"), where = PluginDescriptor.WHERE_MENU, fnc = menu),
+					PluginDescriptor(name = _("Softcam setup"), description= _("Lets you configure your softcams"), where = PluginDescriptor.WHERE_EXTENSIONSMENU, fnc= main),
+					PluginDescriptor(where = PluginDescriptor.WHERE_SESSIONSTART, fnc= sessionstart),
+					PluginDescriptor(where = PluginDescriptor.WHERE_AUTOSTART, fnc= autostart),
+				]
+		else:
+			return [PluginDescriptor(name = _("Softcam setup"), description = _("Lets you configure your softcams"), where = PluginDescriptor.WHERE_MENU, fnc = menu),
+					PluginDescriptor(where = PluginDescriptor.WHERE_SESSIONSTART, fnc= sessionstart),
+					PluginDescriptor(where = PluginDescriptor.WHERE_AUTOSTART, fnc= autostart),
+				]
+	else:
+		return [PluginDescriptor(where = PluginDescriptor.WHERE_SESSIONSTART, fnc= sessionstart),
 				PluginDescriptor(where = PluginDescriptor.WHERE_AUTOSTART, fnc= autostart),
 			]
-	else:
-		return [PluginDescriptor(name = _("Softcam setup"), description = _("Lets you configure your softcams"), where = PluginDescriptor.WHERE_MENU, fnc = menu),
-				PluginDescriptor(where = PluginDescriptor.WHERE_SESSIONSTART, fnc= sessionstart),
-				PluginDescriptor(where = PluginDescriptor.WHERE_AUTOSTART, fnc= autostart),
-			]	
