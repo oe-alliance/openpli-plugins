@@ -40,5 +40,4 @@ PLi/SoftcamSetup/src/images/Makefile
 PLi/SoftcamSetup/po/Makefile
 Extensions/Makefile
 Extensions/UShare/Makefile
-Extensions/OpenUitzendingGemist/Makefile
 ])
