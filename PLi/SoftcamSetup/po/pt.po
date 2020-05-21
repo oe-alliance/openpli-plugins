@@ -1,0 +1,128 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-06 11:52+0100\n"
+"PO-Revision-Date: 2020-05-20 22:37+0100\n"
+"Last-Translator: Pereiira69 <pereira69@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 2.3.1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Changing keymap failed (%s)."
+msgstr "A alteração do mapa de teclas falhou (% s)."
+
+msgid "Choice key"
+msgstr "Chave de escolha"
+
+msgid "Close plugin on restart emu"
+msgstr "Feche o plug-in ao reiniciar a emu"
+
+msgid "Current cardserver: "
+msgstr "Servidor de cartões atual: "
+
+msgid "Current softcam: "
+msgstr "Softcam atual: "
+
+msgid "Default Camd"
+msgstr "Camd padrão"
+
+msgid "Don't switch auto-camd while recording"
+msgstr "Não mudar a auto-camd durante a gravação"
+
+msgid "Enable Auto-Camd"
+msgstr "Ativar Camd automático"
+
+msgid "Green key"
+msgstr "Tecla verde"
+
+msgid "Help key"
+msgstr "Tecla de ajuda"
+
+msgid "Lets you configure your softcams"
+msgstr "Permite configurar suas softcams"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Open plugin - cursor to restart:"
+msgstr "Abra o plugin - cursor para reiniciar:"
+
+msgid "Please wait, restarting cardserver."
+msgstr "Por favor, aguarde, reiniciando o servidor de cartões."
+
+msgid "Please wait, restarting softcam and cardserver."
+msgstr "Aguarde, reiniciando a softcam e o servidor de cartões."
+
+msgid "Please wait, restarting softcam."
+msgstr "Aguarde, reiniciando a softcam."
+
+msgid "Quick button"
+msgstr "Botão rápido"
+
+msgid "RED key"
+msgstr "Tecla VERMELHA"
+
+msgid "Refresh"
+msgstr "Atualizar"
+
+msgid "Restart both"
+msgstr "Reiniciar ambos"
+
+msgid "Restart cardserver"
+msgstr "Reiniciar o servidor de cartões"
+
+msgid "Restart softcam"
+msgstr "Reiniciar a softcam"
+
+msgid "Select Card Server"
+msgstr "Selecionar Servidor de Cartão"
+
+msgid "Select Softcam"
+msgstr "Selecionar Softcam"
+
+msgid "Settings menu"
+msgstr "Menu de configurações"
+
+msgid "Setup Auto-Camd List"
+msgstr "Configurar lista de camd automática"
+
+msgid "Show (switch info camname)"
+msgstr "Mostrar (mudar informações camname)"
+
+msgid "Show ecm.info"
+msgstr "Mostrar ecm.info"
+
+msgid "Show plugin extensions menu"
+msgstr "Mostrar menu de extensões de plug-in"
+
+msgid "Softcam Setup"
+msgstr "Configuração da Softcam"
+
+msgid "Softcam setup"
+msgstr "Configuração da softcam"
+
+msgid "Softcam setup..."
+msgstr "Configuração da Softcam ..."
+
+msgid "TEXT key"
+msgstr "Tecla TEXT"
+
+msgid "YELLOW key"
+msgstr "Tecla AMARELA"
+
+msgid "restart both"
+msgstr "iniciar ambos"
+
+msgid "restart cardserver"
+msgstr "reiniciar o servidor de cartões"
+
+msgid "restart softcam"
+msgstr "reiniciar softcam"
