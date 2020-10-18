@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2-plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-06 11:52+0100\n"
+"POT-Creation-Date: 2020-10-18 19:46+0200\n"
 "PO-Revision-Date: 2012-03-11 10:14+0100\n"
 "Last-Translator: \n"
 "Language-Team: www.linux-sprejemniki.info\n"
@@ -13,55 +13,163 @@ msgstr ""
 "X-Poedit-Language: Slovenian\n"
 "X-Poedit-Country: SLOVENIA\n"
 
-#: plugin.py:9
-msgid "Softcam setup..."
-msgstr "Nastavitve"
+msgid "Add Channel"
+msgstr ""
 
-#: plugin.py:13
-msgid "Softcam setup"
-msgstr "Nastavitve"
+msgid "Add Provider"
+msgstr ""
 
-#: plugin.py:13
-msgid "Lets you configure your softcams"
-msgstr "Nastavljanje emulatorjev"
+msgid "Auto-Camd"
+msgstr ""
 
-#: Sc.py:63
-msgid "Select Softcam"
-msgstr "Izbor emulatorja"
+msgid "Auto-Camd List Setup"
+msgstr ""
 
-#: Sc.py:67
-msgid "Select Card Server"
-msgstr "Izbor bralca kartic"
+msgid "CCcamInfo"
+msgstr ""
 
-#: Sc.py:69
-msgid "Restart softcam"
-msgstr "Ponovni zagon emulatorja"
-
-#: Sc.py:71
-msgid "Restart cardserver"
-msgstr "Ponovni zagon bralca kartic"
-
-#: Sc.py:72
-msgid "Restart both"
-msgstr "Ponovni zagon obeh"
-
-#: Sc.py:74
 msgid "Cancel"
 msgstr "Izhod"
 
-#: Sc.py:75
+msgid "Change Camd"
+msgstr ""
+
+#, python-format
+msgid "Changing keymap failed (%s)."
+msgstr ""
+
+msgid "Channel"
+msgstr ""
+
+msgid "Choice key"
+msgstr ""
+
+msgid "Close plugin on restart emu"
+msgstr ""
+
+#, fuzzy
+msgid "Current cardserver: "
+msgstr "Ponovni zagon bralca kartic"
+
+#, fuzzy
+msgid "Current softcam: "
+msgstr "Ponovni zagon emulatorja"
+
+msgid "Default Camd"
+msgstr ""
+
+msgid "Default cam restart mode"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Don't switch auto-camd while recording"
+msgstr ""
+
+msgid "Enable Auto-Camd"
+msgstr ""
+
+msgid "Green key"
+msgstr ""
+
+msgid "Help key"
+msgstr ""
+
+msgid "Lets you configure your softcams"
+msgstr "Nastavljanje emulatorjev"
+
 msgid "OK"
 msgstr "Potrditev"
 
-#: Sc.py:91
-msgid "Please wait, restarting softcam and cardserver."
-msgstr "Poteka ponovni zagon emulatorja in bralca kartic..."
+msgid "OscamInfo"
+msgstr ""
 
-#: Sc.py:93
-msgid "Please wait, restarting softcam."
-msgstr "Poteka ponovni zagon emulatorja..."
-
-#: Sc.py:95
 msgid "Please wait, restarting cardserver."
 msgstr "Poteka ponovni zagon bralca kartic..."
 
+msgid "Please wait, restarting softcam and cardserver."
+msgstr "Poteka ponovni zagon emulatorja in bralca kartic..."
+
+msgid "Please wait, restarting softcam."
+msgstr "Poteka ponovni zagon emulatorja..."
+
+msgid "Provider"
+msgstr ""
+
+msgid "Quick button"
+msgstr ""
+
+msgid "RED key"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Restart both"
+msgstr "Ponovni zagon obeh"
+
+msgid "Restart cardserver"
+msgstr "Ponovni zagon bralca kartic"
+
+msgid "Restart softcam"
+msgstr "Ponovni zagon emulatorja"
+
+#, fuzzy, python-format
+msgid "Select Cam for %s"
+msgstr "Izbor bralca kartic"
+
+msgid "Select Card Server"
+msgstr "Izbor bralca kartic"
+
+msgid "Select Softcam"
+msgstr "Izbor emulatorja"
+
+msgid "Settings menu"
+msgstr ""
+
+msgid "Setup Auto-Camd List"
+msgstr ""
+
+msgid "Show (switch info camname)"
+msgstr ""
+
+msgid "Show ecm.info"
+msgstr ""
+
+msgid "Show plugin extensions menu"
+msgstr ""
+
+#, fuzzy
+msgid "Softcam Setup"
+msgstr "Nastavitve"
+
+msgid "Softcam setup"
+msgstr "Nastavitve"
+
+msgid "Softcam setup..."
+msgstr "Nastavitve"
+
+#, python-format
+msgid ""
+"Switch camd:\n"
+" '%s' to '%s'"
+msgstr ""
+
+msgid "TEXT key"
+msgstr ""
+
+msgid "YELLOW key"
+msgstr ""
+
+#, fuzzy
+msgid "restart both"
+msgstr "Ponovni zagon obeh"
+
+#, fuzzy
+msgid "restart cardserver"
+msgstr "Ponovni zagon bralca kartic"
+
+#, fuzzy
+msgid "restart softcam"
+msgstr "Ponovni zagon emulatorja"

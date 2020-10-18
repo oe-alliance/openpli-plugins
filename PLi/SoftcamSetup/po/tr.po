@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-06 11:52+0100\n"
+"POT-Creation-Date: 2020-10-18 19:46+0200\n"
 "PO-Revision-Date: 2015-10-17 12:58+0300\n"
 "Last-Translator: Hasan Kiran <Sunder67@hotmail.com>\n"
 "Language-Team: Turkish <Sunder67@hotmail.com>\n"
@@ -17,54 +17,163 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 1.8.4\n"
 
-#: plugin.py:9
-msgid "Softcam setup..."
-msgstr "Softcam kurulumu..."
+msgid "Add Channel"
+msgstr ""
 
-#: plugin.py:13
-msgid "Softcam setup"
-msgstr "Softcam kurulumu"
+msgid "Add Provider"
+msgstr ""
 
-#: plugin.py:13
-msgid "Lets you configure your softcams"
-msgstr "Softcam yapılandırmanıza olanak sağlar"
+msgid "Auto-Camd"
+msgstr ""
 
-#: Sc.py:63
-msgid "Select Softcam"
-msgstr "Softcam seçin"
+msgid "Auto-Camd List Setup"
+msgstr ""
 
-#: Sc.py:67
-msgid "Select Card Server"
-msgstr "Kart Sunucusu seçin"
+msgid "CCcamInfo"
+msgstr ""
 
-#: Sc.py:69
-msgid "Restart softcam"
-msgstr "Softcam yeniden başlat"
-
-#: Sc.py:71
-msgid "Restart cardserver"
-msgstr "Kart sunucusu yeniden başlat"
-
-#: Sc.py:72
-msgid "Restart both"
-msgstr "İkisini de yeniden başlat"
-
-#: Sc.py:74
 msgid "Cancel"
 msgstr "İptal"
 
-#: Sc.py:75
+msgid "Change Camd"
+msgstr ""
+
+#, python-format
+msgid "Changing keymap failed (%s)."
+msgstr ""
+
+msgid "Channel"
+msgstr ""
+
+msgid "Choice key"
+msgstr ""
+
+msgid "Close plugin on restart emu"
+msgstr ""
+
+#, fuzzy
+msgid "Current cardserver: "
+msgstr "Kart sunucusu yeniden başlat"
+
+#, fuzzy
+msgid "Current softcam: "
+msgstr "Softcam yeniden başlat"
+
+msgid "Default Camd"
+msgstr ""
+
+msgid "Default cam restart mode"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Don't switch auto-camd while recording"
+msgstr ""
+
+msgid "Enable Auto-Camd"
+msgstr ""
+
+msgid "Green key"
+msgstr ""
+
+msgid "Help key"
+msgstr ""
+
+msgid "Lets you configure your softcams"
+msgstr "Softcam yapılandırmanıza olanak sağlar"
+
 msgid "OK"
 msgstr "TAMAM"
 
-#: Sc.py:91
+msgid "OscamInfo"
+msgstr ""
+
+msgid "Please wait, restarting cardserver."
+msgstr "Lütfen bekleyin, kart sunucusu yeniden başlatılıyor."
+
 msgid "Please wait, restarting softcam and cardserver."
 msgstr "Lütfen bekleyin, softcam ve kart sunucusu yeniden başlatılıyor."
 
-#: Sc.py:93
 msgid "Please wait, restarting softcam."
 msgstr "Lütfen bekleyin, softcam yeniden başlatılıyor."
 
-#: Sc.py:95
-msgid "Please wait, restarting cardserver."
-msgstr "Lütfen bekleyin, kart sunucusu yeniden başlatılıyor."
+msgid "Provider"
+msgstr ""
+
+msgid "Quick button"
+msgstr ""
+
+msgid "RED key"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Restart both"
+msgstr "İkisini de yeniden başlat"
+
+msgid "Restart cardserver"
+msgstr "Kart sunucusu yeniden başlat"
+
+msgid "Restart softcam"
+msgstr "Softcam yeniden başlat"
+
+#, fuzzy, python-format
+msgid "Select Cam for %s"
+msgstr "Kart Sunucusu seçin"
+
+msgid "Select Card Server"
+msgstr "Kart Sunucusu seçin"
+
+msgid "Select Softcam"
+msgstr "Softcam seçin"
+
+msgid "Settings menu"
+msgstr ""
+
+msgid "Setup Auto-Camd List"
+msgstr ""
+
+msgid "Show (switch info camname)"
+msgstr ""
+
+msgid "Show ecm.info"
+msgstr ""
+
+msgid "Show plugin extensions menu"
+msgstr ""
+
+#, fuzzy
+msgid "Softcam Setup"
+msgstr "Softcam kurulumu"
+
+msgid "Softcam setup"
+msgstr "Softcam kurulumu"
+
+msgid "Softcam setup..."
+msgstr "Softcam kurulumu..."
+
+#, python-format
+msgid ""
+"Switch camd:\n"
+" '%s' to '%s'"
+msgstr ""
+
+msgid "TEXT key"
+msgstr ""
+
+msgid "YELLOW key"
+msgstr ""
+
+#, fuzzy
+msgid "restart both"
+msgstr "İkisini de yeniden başlat"
+
+#, fuzzy
+msgid "restart cardserver"
+msgstr "Kart sunucusu yeniden başlat"
+
+#, fuzzy
+msgid "restart softcam"
+msgstr "Softcam yeniden başlat"

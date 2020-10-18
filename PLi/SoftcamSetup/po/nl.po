@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-06 11:52+0100\n"
+"POT-Creation-Date: 2020-10-18 19:46+0200\n"
 "PO-Revision-Date: 2012-03-06 16:27+0100\n"
 "Last-Translator: ims <ims21@users.sourceforge.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,11 +11,35 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Add Channel"
+msgstr ""
+
+msgid "Add Provider"
+msgstr ""
+
+#, fuzzy
+msgid "Auto-Camd"
+msgstr "Auto-Camd inschakelen"
+
+#, fuzzy
+msgid "Auto-Camd List Setup"
+msgstr "Instellingen Auto-Camd Lijst"
+
+msgid "CCcamInfo"
+msgstr ""
+
 msgid "Cancel"
 msgstr "Annuleren"
 
+msgid "Change Camd"
+msgstr ""
+
+#, python-format
 msgid "Changing keymap failed (%s)."
 msgstr "Veranderen van keymap is mislukt (%s)."
+
+msgid "Channel"
+msgstr ""
 
 msgid "Choice key"
 msgstr "Kies een toets"
@@ -31,6 +55,13 @@ msgstr "Huidige softcam: "
 
 msgid "Default Camd"
 msgstr "Standaard Camd"
+
+#, fuzzy
+msgid "Default cam restart mode"
+msgstr "Standaard Camd"
+
+msgid "Delete"
+msgstr ""
 
 msgid "Don't switch auto-camd while recording"
 msgstr "Auto-Camd niet omschakelen tijdens opname"
@@ -50,8 +81,8 @@ msgstr "Configuratie van softcams"
 msgid "OK"
 msgstr "OK"
 
-msgid "Open plugin - cursor to restart:"
-msgstr "Open plugin - cursor om te herstarten:"
+msgid "OscamInfo"
+msgstr ""
 
 msgid "Please wait, restarting cardserver."
 msgstr "Even geduld, cardserver wordt opnieuw gestart"
@@ -61,6 +92,9 @@ msgstr "Even geduld, softcam en cardserver worden opnieuw gestart."
 
 msgid "Please wait, restarting softcam."
 msgstr "Even geduld, softcam wordt opnieuw gestart"
+
+msgid "Provider"
+msgstr ""
 
 msgid "Quick button"
 msgstr "Snel toets"
@@ -79,6 +113,10 @@ msgstr "Cardserver herstarten"
 
 msgid "Restart softcam"
 msgstr "Softcam herstarten"
+
+#, fuzzy, python-format
+msgid "Select Cam for %s"
+msgstr "Kies Card Server"
 
 msgid "Select Card Server"
 msgstr "Kies Card Server"
@@ -109,6 +147,12 @@ msgstr "Softcam instellingen"
 
 msgid "Softcam setup..."
 msgstr "Softcam instellingen..."
+
+#, python-format
+msgid ""
+"Switch camd:\n"
+" '%s' to '%s'"
+msgstr ""
 
 msgid "TEXT key"
 msgstr "Text toets"

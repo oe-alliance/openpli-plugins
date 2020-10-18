@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2-plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-06 11:52+0100\n"
+"POT-Creation-Date: 2020-10-18 19:46+0200\n"
 "PO-Revision-Date: 2020-03-23 01:06+0100\n"
 "Last-Translator: Pike_Bishop <alfredzngr023@gmail.com>\n"
 "Language-Team: daddelfalk\n"
@@ -20,8 +20,14 @@ msgstr "Kanal hinzufügen"
 msgid "Add Provider"
 msgstr "Provider hinzufügen"
 
+msgid "Auto-Camd"
+msgstr "Auto-Camd"
+
 msgid "Auto-Camd List Setup"
 msgstr "Einstellung Auto-Camd Liste"
+
+msgid "CCcamInfo"
+msgstr ""
 
 msgid "Cancel"
 msgstr "Abbrechen"
@@ -29,8 +35,12 @@ msgstr "Abbrechen"
 msgid "Change Camd"
 msgstr "Camd wechseln"
 
+#, python-format
 msgid "Changing keymap failed (%s)."
 msgstr "Keymap Wechsel gescheitert (%s) !"
+
+msgid "Channel"
+msgstr "Kanal"
 
 msgid "Choice key"
 msgstr "Schnell-Button Taste bestimmen"
@@ -46,6 +56,9 @@ msgstr "Aktuelles Softcam: "
 
 msgid "Default Camd"
 msgstr "Camd voreingestellt"
+
+msgid "Default cam restart mode"
+msgstr "Standard Cam Neustart Modus"
 
 msgid "Delete"
 msgstr "Löschen"
@@ -68,8 +81,8 @@ msgstr "Konfiguration der Softcams und Karten-Server"
 msgid "OK"
 msgstr "OK"
 
-msgid "Open plugin - cursor to restart:"
-msgstr "Plugin geöffnet - Curser für Neustart:"
+msgid "OscamInfo"
+msgstr ""
 
 msgid "Please wait, restarting cardserver."
 msgstr "Bitte warten, Karten-Server startet neu."
@@ -79,6 +92,9 @@ msgstr "Bitte warten, Softcam und Karten-Server starten neu."
 
 msgid "Please wait, restarting softcam."
 msgstr "Bitte warten, Softcam startet neu."
+
+msgid "Provider"
+msgstr "Provider"
 
 msgid "Quick button"
 msgstr "Schnell-Button"
@@ -98,6 +114,9 @@ msgstr "Neustart Karten-Server"
 msgid "Restart softcam"
 msgstr "Neustart Softcam"
 
+msgid "Select Cam for %s"
+msgstr "Wähle Cam für %s"
+
 msgid "Select Card Server"
 msgstr "Wähle Karten-Server"
 
@@ -110,14 +129,14 @@ msgstr "Einstellungs-Menü"
 msgid "Setup Auto-Camd List"
 msgstr "Einstellung Auto-Camd Liste"
 
+msgid "Show (switch info camname)"
+msgstr "Anzeige (ändern des Cam Names)"
+
 msgid "Show ecm.info"
 msgstr "Zeige ECM Informationen"
 
 msgid "Show plugin extensions menu"
 msgstr "Zeige Plugin in Erweiterungen"
-
-msgid "Softcam Configuration"
-msgstr "Softcam Konfiguration"
 
 msgid "Softcam Setup"
 msgstr "Softcam Konfiguration"
@@ -128,6 +147,7 @@ msgstr "Softcam Konfiguration"
 msgid "Softcam setup..."
 msgstr "Softcam Konfiguration..."
 
+#, python-format
 msgid ""
 "Switch camd:\n"
 " '%s' to '%s'"

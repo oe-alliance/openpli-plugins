@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pli\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-06 11:52+0100\n"
+"POT-Creation-Date: 2020-10-18 19:46+0200\n"
 "PO-Revision-Date: 2012-06-24 14:52+0100\n"
 "Last-Translator: robertut <robertut@yahoo.com>\n"
 "Language-Team: \n"
@@ -16,55 +16,163 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: plugin.py:9
-msgid "Softcam setup..."
-msgstr "Softcam beállítások..."
+msgid "Add Channel"
+msgstr ""
 
-#: plugin.py:13
-msgid "Softcam setup"
-msgstr "Softcam beállítások"
+msgid "Add Provider"
+msgstr ""
 
-#: plugin.py:13
-msgid "Lets you configure your softcams"
-msgstr "Softcam-ek beállítására ad lehetőséget"
+msgid "Auto-Camd"
+msgstr ""
 
-#: Sc.py:63
-msgid "Select Softcam"
-msgstr "Softcam kiválasztás:"
+msgid "Auto-Camd List Setup"
+msgstr ""
 
-#: Sc.py:67
-msgid "Select Card Server"
-msgstr "Kártyaszerver kiválasztás:"
+msgid "CCcamInfo"
+msgstr ""
 
-#: Sc.py:69
-msgid "Restart softcam"
-msgstr "Softcam újraindítása"
-
-#: Sc.py:71
-msgid "Restart cardserver"
-msgstr "Kártyaszerver újraindítása"
-
-#: Sc.py:72
-msgid "Restart both"
-msgstr "Mindkettő újraindítása"
-
-#: Sc.py:74
 msgid "Cancel"
 msgstr "Mégse"
 
-#: Sc.py:75
+msgid "Change Camd"
+msgstr ""
+
+#, python-format
+msgid "Changing keymap failed (%s)."
+msgstr ""
+
+msgid "Channel"
+msgstr ""
+
+msgid "Choice key"
+msgstr ""
+
+msgid "Close plugin on restart emu"
+msgstr ""
+
+#, fuzzy
+msgid "Current cardserver: "
+msgstr "Kártyaszerver újraindítása"
+
+#, fuzzy
+msgid "Current softcam: "
+msgstr "Softcam újraindítása"
+
+msgid "Default Camd"
+msgstr ""
+
+msgid "Default cam restart mode"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Don't switch auto-camd while recording"
+msgstr ""
+
+msgid "Enable Auto-Camd"
+msgstr ""
+
+msgid "Green key"
+msgstr ""
+
+msgid "Help key"
+msgstr ""
+
+msgid "Lets you configure your softcams"
+msgstr "Softcam-ek beállítására ad lehetőséget"
+
 msgid "OK"
 msgstr "OK"
 
-#: Sc.py:91
-msgid "Please wait, restarting softcam and cardserver."
-msgstr "A softcam és a kártyaszerver újraindítása folyamatban van"
+msgid "OscamInfo"
+msgstr ""
 
-#: Sc.py:93
-msgid "Please wait, restarting softcam."
-msgstr "A softcam újraindítása folyamatban van"
-
-#: Sc.py:95
 msgid "Please wait, restarting cardserver."
 msgstr "A kártyaszerver újraindítása folyamatban van"
 
+msgid "Please wait, restarting softcam and cardserver."
+msgstr "A softcam és a kártyaszerver újraindítása folyamatban van"
+
+msgid "Please wait, restarting softcam."
+msgstr "A softcam újraindítása folyamatban van"
+
+msgid "Provider"
+msgstr ""
+
+msgid "Quick button"
+msgstr ""
+
+msgid "RED key"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Restart both"
+msgstr "Mindkettő újraindítása"
+
+msgid "Restart cardserver"
+msgstr "Kártyaszerver újraindítása"
+
+msgid "Restart softcam"
+msgstr "Softcam újraindítása"
+
+#, fuzzy, python-format
+msgid "Select Cam for %s"
+msgstr "Kártyaszerver kiválasztás:"
+
+msgid "Select Card Server"
+msgstr "Kártyaszerver kiválasztás:"
+
+msgid "Select Softcam"
+msgstr "Softcam kiválasztás:"
+
+msgid "Settings menu"
+msgstr ""
+
+msgid "Setup Auto-Camd List"
+msgstr ""
+
+msgid "Show (switch info camname)"
+msgstr ""
+
+msgid "Show ecm.info"
+msgstr ""
+
+msgid "Show plugin extensions menu"
+msgstr ""
+
+#, fuzzy
+msgid "Softcam Setup"
+msgstr "Softcam beállítások"
+
+msgid "Softcam setup"
+msgstr "Softcam beállítások"
+
+msgid "Softcam setup..."
+msgstr "Softcam beállítások..."
+
+#, python-format
+msgid ""
+"Switch camd:\n"
+" '%s' to '%s'"
+msgstr ""
+
+msgid "TEXT key"
+msgstr ""
+
+msgid "YELLOW key"
+msgstr ""
+
+#, fuzzy
+msgid "restart both"
+msgstr "Mindkettő újraindítása"
+
+#, fuzzy
+msgid "restart cardserver"
+msgstr "Kártyaszerver újraindítása"
+
+#, fuzzy
+msgid "restart softcam"
+msgstr "Softcam újraindítása"
