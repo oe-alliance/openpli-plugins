@@ -442,7 +442,7 @@ class ScSetupScreen(Screen, ConfigListScreen):
 		self.cfg_MenuExt = getConfigListEntry(_("Show plugin extensions menu"), config.plugins.SoftcamMenu.MenuExt)
 		self.cfg_quickButton = getConfigListEntry(_("Quick button"), config.plugins.SoftcamMenu.quickButton)
 		self.cfg_keymapBut = getConfigListEntry(_("Choice key"), config.plugins.SoftcamMenu.keymapBut)
-		self.cfg_RestartChoice = getConfigListEntry(_("Open plugin - cursor to restart:"), config.plugins.SoftcamMenu.RestartChoice)
+		self.cfg_RestartChoice = getConfigListEntry(_("Default cam restart mode"), config.plugins.SoftcamMenu.RestartChoice)
 		self.cfg_showEcm = getConfigListEntry(_("Show ecm.info"), config.plugins.SoftcamMenu.showEcm)
 		self.cfg_CloseOnRestart = getConfigListEntry(_("Close plugin on restart emu"), config.plugins.SoftcamMenu.CloseOnRestart)
 
