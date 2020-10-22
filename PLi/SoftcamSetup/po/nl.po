@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-18 19:46+0200\n"
-"PO-Revision-Date: 2012-03-06 16:27+0100\n"
-"Last-Translator: ims <ims21@users.sourceforge.net>\n"
+"PO-Revision-Date: 2012-10-19 21:49+0100\n"
+"Last-Translator: Smokey  <https://octagon-forum.eu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -12,34 +12,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Add Channel"
-msgstr ""
+msgstr "Kanaal Toevoegen"
 
 msgid "Add Provider"
-msgstr ""
+msgstr "Provider Toevoegen"
 
-#, fuzzy
 msgid "Auto-Camd"
-msgstr "Auto-Camd inschakelen"
+msgstr "Auto-Camd"
 
-#, fuzzy
 msgid "Auto-Camd List Setup"
-msgstr "Instellingen Auto-Camd Lijst"
+msgstr "Auto-Camd Lijst Instellingen"
 
 msgid "CCcamInfo"
-msgstr ""
+msgstr "CCcamInfo"
 
 msgid "Cancel"
 msgstr "Annuleren"
 
 msgid "Change Camd"
-msgstr ""
+msgstr "Wissel Camd"
 
 #, python-format
 msgid "Changing keymap failed (%s)."
 msgstr "Veranderen van keymap is mislukt (%s)."
 
 msgid "Channel"
-msgstr ""
+msgstr "Kanaal"
 
 msgid "Choice key"
 msgstr "Kies een toets"
@@ -56,12 +54,11 @@ msgstr "Huidige softcam: "
 msgid "Default Camd"
 msgstr "Standaard Camd"
 
-#, fuzzy
 msgid "Default cam restart mode"
-msgstr "Standaard Camd"
+msgstr "Standaard cam herstart modus"
 
 msgid "Delete"
-msgstr ""
+msgstr "Verwijderen"
 
 msgid "Don't switch auto-camd while recording"
 msgstr "Auto-Camd niet omschakelen tijdens opname"
@@ -82,7 +79,7 @@ msgid "OK"
 msgstr "OK"
 
 msgid "OscamInfo"
-msgstr ""
+msgstr "OscamInfo"
 
 msgid "Please wait, restarting cardserver."
 msgstr "Even geduld, cardserver wordt opnieuw gestart"
@@ -94,7 +91,7 @@ msgid "Please wait, restarting softcam."
 msgstr "Even geduld, softcam wordt opnieuw gestart"
 
 msgid "Provider"
-msgstr ""
+msgstr "Provider"
 
 msgid "Quick button"
 msgstr "Snel toets"
@@ -114,9 +111,9 @@ msgstr "Cardserver herstarten"
 msgid "Restart softcam"
 msgstr "Softcam herstarten"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Select Cam for %s"
-msgstr "Kies Card Server"
+msgstr "Kies Cam voor %s"
 
 msgid "Select Card Server"
 msgstr "Kies Card Server"
@@ -153,6 +150,8 @@ msgid ""
 "Switch camd:\n"
 " '%s' to '%s'"
 msgstr ""
+"Wissel camd:\n"
+" '%s' naar '%s'"
 
 msgid "TEXT key"
 msgstr "Text toets"
